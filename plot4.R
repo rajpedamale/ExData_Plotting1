@@ -48,5 +48,10 @@ legend("topright",
        cex = 0.95)
 
 # Bottom Right
-plot(datetime, global.reactive.power, type="l", xlab="datetime", ylab="Global_reactive_power")
+plot(datetime, 
+     global.reactive.power, 
+     type="l", 
+     xlab="datetime", 
+     ylab="Global_reactive_power")
+
 dev.off()
